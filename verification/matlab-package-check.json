@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-19",
+  "matlab_release": "2024b",
+  "packaged_dependency_check_passed": true,
+  "model_families": 20,
+  "axial_checks_passed": 3,
+  "startup_code_analyzer_messages": 0,
+  "solver_resolved_from_package": true,
+  "reference_solver_resolved_from_package": true,
+  "full_historical_suites_rerun": false
+}

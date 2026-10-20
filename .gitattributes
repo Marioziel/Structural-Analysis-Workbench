@@ -1,0 +1,6 @@
+# Preserve the validated MATLAB snapshots and native Live Script containers.
+*.m -text
+*.mlx binary
+*.png binary
+*.md text eol=lf
+*.json text eol=lf

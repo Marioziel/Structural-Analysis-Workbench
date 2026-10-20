@@ -1,0 +1,31 @@
+# MATLAB generated files
+*.asv
+*.m~
+*.mlx~
+*.autosave
+*.mex*
+*.slxc
+*.mat
+*.log
+slprj/
+codegen/
+
+# Local cases, exports, and temporary work
+Casos/
+private/
+results/
+tmp/
+respaldos/
+backups/
+
+# Reference documents and component geometry are kept outside this package
+*.[pP][dD][fF]
+*.[sS][tT][eE][pP]
+*.[sS][tT][pP]
+*.[sS][tT][lL]
+*.[sS][lL][dD][pP][rR][tT]
+*.[sS][lL][dD][aA][sS][mM]
+
+# Local system files
+Thumbs.db
+.DS_Store
