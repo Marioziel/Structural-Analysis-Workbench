@@ -66,7 +66,6 @@ START_HERE.m      Entry point: prepare the path and open the integrated document
 matlab/           Integrated Live Script, 16 reference modules, solvers, and tests
 docs/             Input guide, module index, model preparation, and technical notes
 assets/           Generic example previews used in this README
-verification/     Verification history, packaged-source hashes, and packaging checks
 ```
 
 Keep the files inside `matlab/` together: the integrated solver checks for the 16 reference documents and its helper routines. You do not need to execute the reference modules before using the integrated document.
@@ -77,7 +76,6 @@ Documentation:
 - [Reference module index and scope — Spanish](docs/LEEME.md)
 - [Preparing a real structural model — Spanish](docs/PREPARAR_MODELO_ESTRUCTURAL.md)
 - [Spatial model conventions — Spanish](docs/REVISION_3D.md)
-- [Verification record — English](verification/VERIFICATION.md)
 - [Uploading this package — Spanish](docs/PUBLICAR_EN_GITHUB.md)
 
 ## Verification
@@ -93,7 +91,7 @@ COMPROBAR_LECCIONES;
 COMPROBAR_SOLIDO_INTEGRADO;
 ```
 
-PDE Toolbox is needed for the suites that exercise solids. Additional standalone-module checks are supplied as `COMPROBAR_CALCULOS` and `COMPROBAR_ESPACIAL`; their results are separate from the 96-check integration record. See [verification details](verification/VERIFICATION.md) for provenance and packaging checks.
+PDE Toolbox is needed for the suites that exercise solids. Additional standalone-module checks are supplied as `COMPROBAR_CALCULOS` and `COMPROBAR_ESPACIAL`; their results are separate from the 96-check integration record. After packaging, the required library files were checked and the three axial presentation checks were rerun from the packaged directory. The full historical suites were not rerun during packaging. Historical reports and source hashes are retained separately in the working archive.
 
 ## Engineering scope and limitations
 
